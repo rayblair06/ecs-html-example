@@ -1,0 +1,38 @@
+{
+  "name": "ecs-html-example",
+  "version": "0.1.0",
+  "description": "A simple NodeJS server example for ECS deployment",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "serve": "npm run start",
+    "lint": "eslint 'src/**'",
+    "lint:fix": "eslint 'src/**' --fix",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rayblair06/ecs-html-example.git"
+  },
+  "author": "Ray Blair",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rayblair06/ecs-html-example/issues"
+  },
+  "homepage": "https://github.com/rayblair06/ecs-html-example#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.17.0",
+    "@babel/eslint-parser": "^7.5.4",
+    "@babel/node": "^7.15.8",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-typescript": "^7.15.0",
+    "@babel/register": "^7.16.0",
+    "babel-jest": "^27.5.0",
+    "babel-polyfill": "^6.26.0",
+    "eslint": "^8.8.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-json": "^3.1.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1"
+  }
+}
