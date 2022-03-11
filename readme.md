@@ -36,13 +36,15 @@ npm run test                  # Run tests with Jest
 
 ## ECS Setup
 
-- Create Cluster.
+- Create Repo in ECR.
+- Create Cluster in ECS (We will be working mostly in there from now on).
 - Create Task Definition.
 - Get JSON of Task Definition and place within repo.
 - Create Service within Cluster with Task Definition
 	- Optionally create a load balancer to resolve as task ip constantly changes.
 	- Note: Makesure to specify the ECS network as network, it seems to default to a random VPN sometimes.
 - Update `deploy.yml` workflow with information created above.
+- Add AWS secrets to repo and push to deploy!
 
 ```
 env:
